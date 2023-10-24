@@ -17,8 +17,8 @@ int main() {
     char Line[M_LINE_LEN];
     Replacement replacements[M_NUM_REPLACEMENTS];
     FILE *source,*dic,*new;
-    source = fopen("C:\\Users\\mobin\\Desktop\\source.txt","r");
-    dic = fopen("C:\\Users\\mobin\\Desktop\\dictionary.txt","r");
+    source = fopen("source.txt","r");
+    dic = fopen("dictionary.txt","r");
     new = fopen("new_file.txt","w");
     int num;
     if(source == NULL || dic == NULL){
